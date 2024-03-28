@@ -12,9 +12,9 @@ UCTB is a flexible and open package. You can use the data we provided or use you
 
 **2024-03**: We have released two new datasets for **Metro** and **Bus** applications. These datasets provide hourly estimates of subway and bus ridership. [Welcome to explore them!]
 
-**2023-06**: We have released a technical report entitled '*UCTB: An Urban Computing Tool Box for Spatiotemporal Crowd Flow Prediction*', introducing the design and implementation principles of UCTB. [[arXiv\]]
+**2023-06**: We have released a technical report entitled '*xxxx*', introducing the design and implementation principles of UCTB. arXiv
 
-**2021-11**: Our paper on UCTB, entitled '*Exploring the Generalizability of Spatio-Temporal Traffic Prediction: Meta-Modeling and an Analytic Framework*', has been accepted by IEEE TKDE! [[IEEE Xplore]] [[arXiv]]
+**2021-11**: Our paper on UCTB, entitled '*xxxx*', has been accepted by IEEE TKDE!
 
 ------
 
@@ -67,6 +67,7 @@ Currently, the ST prediction model package supports the following models: (This 
 |   GMAN [[AAAI 2020]](https://ojs.aaai.org/index.php/AAAI/article/view/5477/5333) |   Node   |   Attention   |**Prior** (Road Network)|Attention|Closeness|``UCTB.model.GMAN``|
 |   STSGCN [[AAAI 2020]](https://ojs.aaai.org/index.php/AAAI/article/view/5438) |   Node   |   GNN+Attention   |**Prior** (Spatial Network)|Attention|Closeness|``UCTB.model.STSGCN``|
 |  AGCRN [[NeurIPS 2020]](https://proceedings.neurips.cc/paper/2020/file/ce1aad92b939420fc17005e5461e6f48-Paper.pdf) |   Node   |   GNN   |**Adaptive**|RNN|Closeness|``UCTB.model.AGCRN``|
+|  MTGNN [[KDD 2020]](https://dl.acm.org/doi/abs/10.1145/3394486.3403118) |   Node   |   GNN   |**Adaptive**|TCN|Closeness|``UCTB.model.MTGNN``|
 |   STMeta [[TKDE 2021]](https://arxiv.org/abs/2009.09379)  |   Node   |   GNN   |**Prior** (Proximity, Functionality, Interaction/Same-line)|LSTM/RNN|Closeness, Period, Trend|``UCTB.model.STMeta``|
 
 ------

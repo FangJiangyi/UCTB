@@ -1,6 +1,6 @@
 # UCTB (Urban Computing Tool Box)
 
- [![Python](https://img.shields.io/badge/python-3.6%7C3.7-blue)]() [![PyPI](https://img.shields.io/badge/pypi%20package-v0.3.5-sucess)](https://pypi.org/project/UCTB/) [![https://img.shields.io/badge/license-MIT-green](https://img.shields.io/badge/license-MIT-green)]() [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://uctb.github.io/UCTB)
+ [![Python](https://img.shields.io/badge/python-3.6%7C3.7-blue)]() [![PyPI](https://img.shields.io/badge/pypi%20package-v0.3.5-sucess)] [![https://img.shields.io/badge/license-MIT-green](https://img.shields.io/badge/license-MIT-green)]() [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)]
 
 ------
 
@@ -20,17 +20,17 @@ UCTB is a flexible and open package. You can use the data we provided or use you
 
 ## ST-Paper List
 
-We maintain [a paper list]) focusing on spatio-temporal prediction papers from venues such as KDD, NeurIPS, AAAI, WWW, ICDE, IJCAI, WSDM, CIKM, and IEEE T-ITS. Note that the metadata may not encompass all relevant papers and could include unrelated ones, as selected by large language models.
+We maintain [a paper list] focusing on spatio-temporal prediction papers from venues such as KDD, NeurIPS, AAAI, WWW, ICDE, IJCAI, WSDM, CIKM, and IEEE T-ITS. Note that the metadata may not encompass all relevant papers and could include unrelated ones, as selected by large language models.
 
 <img src="https://uctb.github.io/UCTB/sphinx/md_file/src/image/venue_stat.png" alt=".img" style="zoom: 33%;height: 327px; width:424" />
 
 ## Urban Datasets
 
-UCTB releases [a public dataset repository](https://github.com/uctb/Urban-Dataset) including the following applications in 4 scenarios, with the detailed information provided in the table below. We are constantly working to release more datasets in the future.
+UCTB releases **a public dataset repository** including the following applications in 4 scenarios, with the detailed information provided in the table below. We are constantly working to release more datasets in the future.
 
 | **Application**  |        **City**        |       Time Span       | **Interval** |                           **Link**                           |
 | :--------------: | :--------------------: | :-------------------: | :----------: | :----------------------------------------------------------: |
-|   Bike-sharing   |          NYC           | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins])  [60 mins] |
+|   Bike-sharing   |          NYC           | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins]  [60 mins] |
 |   Bike-sharing   |        Chicago         | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins] [60 mins] |
 |   Bike-sharing   |           DC           | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins] [60 mins] |
 |       Bus        |          NYC           | 2022.02.01-2024.01.13 |   60 mins    | [60 mins] |

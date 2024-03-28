@@ -4,23 +4,23 @@
 
 ------
 
-**Urban Computing Tool Box** is a package providing [**ST paper list**](https://github.com/uctb/ST-Paper), [**urban datasets**](https://github.com/uctb/Urban-Dataset), [**spatial-temporal prediction models**](https://github.com/uctb/UCTB), and [**visualization tools**](https://github.com/uctb/visualization-tool-UCTB) for various urban computing tasks, such as traffic prediction, crowd flow prediction, ride-sharing demand prediction, etc. 
+**Urban Computing Tool Box** is a package providing [**ST paper list**], [**urban datasets**], [**spatial-temporal prediction models**], and [**visualization tools**] for various urban computing tasks, such as traffic prediction, crowd flow prediction, ride-sharing demand prediction, etc. 
 
-UCTB is a flexible and open package. You can use the data we provided or use your data, and the data structure is well stated in the [**document**](https://uctb.github.io/UCTB/md_file/urban_dataset.html#). 
+UCTB is a flexible and open package. You can use the data we provided or use your data, and the data structure is well stated in the [**document**]. 
 
 ## News
 
-**2024-03**: We have released two new datasets for **Metro** and **Bus** applications. These datasets provide hourly estimates of subway and bus ridership. [Welcome to explore them!](https://github.com/uctb/Urban-Dataset)
+**2024-03**: We have released two new datasets for **Metro** and **Bus** applications. These datasets provide hourly estimates of subway and bus ridership. [Welcome to explore them!]
 
-**2023-06**: We have released a technical report entitled '*UCTB: An Urban Computing Tool Box for Spatiotemporal Crowd Flow Prediction*', introducing the design and implementation principles of UCTB. [[arXiv\]](https://arxiv.org/abs/2306.04144)
+**2023-06**: We have released a technical report entitled '*UCTB: An Urban Computing Tool Box for Spatiotemporal Crowd Flow Prediction*', introducing the design and implementation principles of UCTB. [[arXiv\]]
 
-**2021-11**: Our paper on UCTB, entitled '*Exploring the Generalizability of Spatio-Temporal Traffic Prediction: Meta-Modeling and an Analytic Framework*', has been accepted by IEEE TKDE! [[IEEE Xplore](https://ieeexplore.ieee.org/document/9627543)] [[arXiv](https://arxiv.org/abs/2009.09379)]
+**2021-11**: Our paper on UCTB, entitled '*Exploring the Generalizability of Spatio-Temporal Traffic Prediction: Meta-Modeling and an Analytic Framework*', has been accepted by IEEE TKDE! [[IEEE Xplore]] [[arXiv]]
 
 ------
 
 ## ST-Paper List
 
-We maintain [a paper list]((https://github.com/uctb/ST-Paper)) focusing on spatio-temporal prediction papers from venues such as KDD, NeurIPS, AAAI, WWW, ICDE, IJCAI, WSDM, CIKM, and IEEE T-ITS. Note that the metadata may not encompass all relevant papers and could include unrelated ones, as selected by large language models.
+We maintain [a paper list]) focusing on spatio-temporal prediction papers from venues such as KDD, NeurIPS, AAAI, WWW, ICDE, IJCAI, WSDM, CIKM, and IEEE T-ITS. Note that the metadata may not encompass all relevant papers and could include unrelated ones, as selected by large language models.
 
 <img src="https://uctb.github.io/UCTB/sphinx/md_file/src/image/venue_stat.png" alt=".img" style="zoom: 33%;height: 327px; width:424" />
 
@@ -30,25 +30,25 @@ UCTB releases [a public dataset repository](https://github.com/uctb/Urban-Datase
 
 | **Application**  |        **City**        |       Time Span       | **Interval** |                           **Link**                           |
 | :--------------: | :--------------------: | :-------------------: | :----------: | :----------------------------------------------------------: |
-|   Bike-sharing   |          NYC           | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Bike/5_minutes/Bike_NYC.zip)  [60 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Bike/60_minutes/Bike_NYC.zip) |
-|   Bike-sharing   |        Chicago         | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Bike/5_minutes/Bike_Chicago.zip) [60 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Bike/60_minutes/Bike_Chicago.zip) |
-|   Bike-sharing   |           DC           | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Bike/5_minutes/Bike_DC.zip) [60 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Bike/60_minutes/Bike_DC.zip) |
-|       Bus        |          NYC           | 2022.02.01-2024.01.13 |   60 mins    | [60 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Bus/60_minutes/Bus_NYC.zip) |
-|  Vehicle Speed   |           LA           | 2012.03.01-2012.06.28 |    5 mins    | [5 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Speed/5_minutes/METR_LA.zip) |
-|  Vehicle Speed   |          BAY           | 2017.01.01-2017.07.01 |    5 mins    | [5 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Speed/5_minutes/PEMS_BAY.zip) |
-| Pedestrian Count |       Melbourne        | 2021.01.01-2022.11.01 |   60 mins    | [60 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Pedestrian/60_minutes/Pedestrian_Melbourne.zip) |
-|   Ride-sharing   |  Chicago (community)   | 2013.01.01-2018.01.01 |   15 mins    | [15 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Taxi/15_minutes/Taxi_Chicago.zip) |
-|   Ride-sharing   | Chicago (census tract) | 2013.01.01-2018.01.01 |   15 mins    | [15 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Taxi/15_minutes/Taxi_fine_grained_Chicago.zip) |
-|   Ride-sharing   |          NYC           | 2009.01.01-2023.06.01 |    5 mins    | [5 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Taxi/5_minutes/Taxi_NYC.zip) |
-|      Metro       |          NYC           | 2022.02.01-2023.12.21 |   60 mins    | [60 mins](https://github.com/uctb/Urban-Dataset/blob/main/Public_Datasets/Metro/60_minutes/Metro_NYC.zip) |
+|   Bike-sharing   |          NYC           | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins])  [60 mins] |
+|   Bike-sharing   |        Chicago         | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins] [60 mins] |
+|   Bike-sharing   |           DC           | 2013.07.01-2017.09.30 | 5 & 60 mins  | [5 mins] [60 mins] |
+|       Bus        |          NYC           | 2022.02.01-2024.01.13 |   60 mins    | [60 mins] |
+|  Vehicle Speed   |           LA           | 2012.03.01-2012.06.28 |    5 mins    | [5 mins] |
+|  Vehicle Speed   |          BAY           | 2017.01.01-2017.07.01 |    5 mins    | [5 mins] |
+| Pedestrian Count |       Melbourne        | 2021.01.01-2022.11.01 |   60 mins    | [60 mins] |
+|   Ride-sharing   |  Chicago (community)   | 2013.01.01-2018.01.01 |   15 mins    | [15 mins] |
+|   Ride-sharing   | Chicago (census tract) | 2013.01.01-2018.01.01 |   15 mins    | [15 mins] |
+|   Ride-sharing   |          NYC           | 2009.01.01-2023.06.01 |    5 mins    | [5 mins] |
+|      Metro       |          NYC           | 2022.02.01-2023.12.21 |   60 mins    | [60 mins] |
 
-We provide [detailed documents](https://github.com/uctb/Urban-Dataset/blob/main/Tutorial/tutorial.ipynb) about how to use these datasets.
+We provide [detailed documents] about how to use these datasets.
 
 ------
 
 ## Prediction Models
 
-Currently, the ST prediction model package supports the following models: (This toolbox is constructed based on some open-source repos. We appreciate these awesome implements. [See more details](https://uctb.github.io/UCTB/md_file/predictive_tool.html#)). 
+Currently, the ST prediction model package supports the following models: (This toolbox is constructed based on some open-source repos. We appreciate these awesome implements. [See more details]). 
 
 |  Model  |   Data Format   |   Spatial Modeling Technique   |Graph Type|Temporal Modeling Technique|Temporal Knowledge|Module|
 | :--: | :--: | :--: |:--:|:--:|:--:|:--:|
@@ -81,26 +81,6 @@ Welcome to visit the [website](http://39.107.116.221/) for a trial!
 
 ## Installation
 
-UCTB toolbox may not work successfully with the upgrade of some packages. We thus encourage you to use the specific version of packages to avoid unseen errors. ***To avoid potential conflict, we highly recommend you install UCTB vis Anaconda.*** The installation details are in our [documents](https://uctb.github.io/UCTB/md_file/installation.html). 
+UCTB toolbox may not work successfully with the upgrade of some packages. We thus encourage you to use the specific version of packages to avoid unseen errors. ***To avoid potential conflict, we highly recommend you install UCTB vis Anaconda.*** The installation details are in our [documents]. 
 
-## Citation
 
-If UCTB is helpful for your work, please cite and star our project.
-
-```
-@article{uctb_2023,
-  title={UCTB: An Urban Computing Tool Box for Spatiotemporal Crowd Flow Prediction},
-  author={Chen, Liyue and Chai, Di and Wang, Leye},
-  journal={arXiv preprint arXiv:2306.04144},
-  year={2023}}
-
-@article{STMeta,
-  author={Wang, Leye and Chai, Di and Liu, Xuanzhe and Chen, Liyue and Chen, Kai},
-  journal={IEEE Transactions on Knowledge and Data Engineering}, 
-  title={Exploring the Generalizability of Spatio-Temporal Traffic Prediction: Meta-Modeling and an Analytic Framework}, 
-  year={2023},
-  volume={35},
-  number={4},
-  pages={3870-3884},
-  doi={10.1109/TKDE.2021.3130762}}
-```

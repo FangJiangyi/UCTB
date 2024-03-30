@@ -8,21 +8,7 @@
 
 UCTB is a flexible and open package. You can use the data we provided or use your data, and the data structure is well stated in the [**document**]. 
 
-## News
-
-**2024-03**: We have released two new datasets for **Metro** and **Bus** applications. These datasets provide hourly estimates of subway and bus ridership. [Welcome to explore them!]
-
-**2023-06**: We have released a technical report entitled '*xxxx*', introducing the design and implementation principles of UCTB. arXiv
-
-**2021-11**: Our paper on UCTB, entitled '*xxxx*', has been accepted by IEEE TKDE!
-
 ------
-
-## ST-Paper List
-
-We maintain [a paper list] focusing on spatio-temporal prediction papers from venues such as KDD, NeurIPS, AAAI, WWW, ICDE, IJCAI, WSDM, CIKM, and IEEE T-ITS. Note that the metadata may not encompass all relevant papers and could include unrelated ones, as selected by large language models.
-
-<img src="https://uctb.github.io/UCTB/sphinx/md_file/src/image/venue_stat.png" alt=".img" style="zoom: 33%;height: 327px; width:424" />
 
 ## Urban Datasets
 
